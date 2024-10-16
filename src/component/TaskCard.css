@@ -1,0 +1,62 @@
+.task-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    width: 20%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+  
+.task-header h3 {
+    margin: 0;
+}
+  
+.task-header p {
+    color: gray;
+    font-size: 12px;  
+}
+  
+.task-body p {
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #bbbbbb;
+    padding: 10px;
+
+}
+  
+.progress-bar {
+    background-color: #e0e0e0;
+    height: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .progress-bar-container {
+    display: flex;
+} */
+  
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.task-footer {
+    margin-top: 50px;
+    text-align: right;
+}
+  
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
